@@ -57,8 +57,8 @@ def get_score_summary(filename):
 
     for key, data in boro_dict.iteritems():
         avegrade = data['sum_grade'] / data['count']
-        finaldict[key] = (data['count'] , avegrade)
-    return finaldict 
+        finaldict[key] = (data['count'], avegrade)
+    return finaldict
 
 
 def get_market_density(filename):
